@@ -1,8 +1,10 @@
 {
-    "branches": ["main"],
+    "branches": "main",
     "repositoryUrl": "https://github.com/stphn/reveal-vite-protected",
+    "debug": "true",
     "plugins": [
         "@semantic-release/commit-analyzer",
-        "@semantic-release/release-notes-generator"
+        "@semantic-release/release-notes-generator",
+        "@semantic-release/github"
     ]
 }
