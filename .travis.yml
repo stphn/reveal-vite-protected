@@ -16,6 +16,6 @@ jobs:
               skip_cleanup: true
               github_token: $GITHUB_TOKEN
               on:
-                  branches: main
+                  all_branches: true
               script:
                   - npx semantic-release

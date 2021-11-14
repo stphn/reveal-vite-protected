@@ -1,21 +1,25 @@
 {
-    "name": "reveal-vite-protected",
-    "version": "0.0.0",
-    "author": "Stephane Goeuriot <admin@stphn.io> (https://stphn.io)",
-    "homepage": "https://github.com/stphn/reveal-vite-protected#readme",
-    "url": "https://github.com/stphn/reveal-vite-protected",
-    "scripts": {
-        "test": "test --passWithNoTests",
-        "dev": "vite",
-        "build": "vite build",
-        "serve": "vite preview",
-        "protect": "yarn build && staticrypt ./dist/index.html secretpassword -f password_template.html -o ./dist/index.html && yarn serve"
-    },
-    "devDependencies": {
-        "@semantic-release/github": "^8.0.2",
-        "reveal.js": "^4.1.3",
-        "sass": "^1.43.3",
-        "semantic-release": "^18.0.0",
-        "vite": "^2.6.4"
-    }
+  "name": "reveal-vite-protected",
+  "version": "0.0.0-development",
+  "author": "Stephane Goeuriot <admin@stphn.io> (https://stphn.io)",
+  "homepage": "https://github.com/stphn/reveal-vite-protected#readme",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/stphn/reveal-vite-protected"
+  },
+  "scripts": {
+    "test": "test --passWithNoTests",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview",
+    "protect": "yarn build && staticrypt ./dist/index.html secretpassword -f password_template.html -o ./dist/index.html && yarn serve",
+    "semantic-release": "semantic-release"
+  },
+  "devDependencies": {
+    "@semantic-release/github": "^8.0.2",
+    "reveal.js": "^4.1.3",
+    "sass": "^1.43.3",
+    "semantic-release": "^18.0.0",
+    "vite": "^2.6.4"
+  }
 }
