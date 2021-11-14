@@ -14,7 +14,6 @@ jobs:
           deploy:
               provider: script
               skip_cleanup: true
-              github_token: $GITHUB_TOKEN
               on:
                   all_branches: true
               script:
