@@ -12,8 +12,7 @@
         "dev": "vite",
         "build": "vite build",
         "serve": "vite preview",
-        "protect": "yarn build && staticrypt ./dist/index.html secretpassword -f password_template.html -o ./dist/index.html && yarn serve",
-        "semantic-release": "semantic-release"
+        "protect": "yarn build && staticrypt ./dist/index.html secretpassword -f password_template.html -o ./dist/index.html && yarn serve"
     },
     "devDependencies": {
         "@semantic-release/changelog": "^6.0.1",
