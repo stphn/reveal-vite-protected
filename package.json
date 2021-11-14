@@ -1,6 +1,8 @@
 {
     "name": "reveal-vite-protected",
     "version": "0.0.0",
+    "author": "Stephane Goeuriot <admin@stphn.io> (https://stphn.io)",
+    "homepage": "https://github.com/stphn/reveal-vite-protected#readme",
     "scripts": {
         "dev": "vite",
         "build": "vite build",
