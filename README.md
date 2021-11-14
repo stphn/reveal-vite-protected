@@ -2,7 +2,7 @@
 
 # Reveal Vite Staticrypt
 
-![Reveal Vite Staticrypt](docs/preview.webp)
+![Reveal Vite Staticrypt](docs/preview.svg)
 
 Building Html Presentations with [Reveal.js](https://revealjs.com/) and [Vite](https://vitejs.dev/).
 
