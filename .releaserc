@@ -1,38 +1,8 @@
 {
-    "branch": "main",
+    "branches": ["main"],
+    "repositoryUrl": "https://github.com/stphn/reveal-vite-protected",
     "plugins": [
         "@semantic-release/commit-analyzer",
-        "@semantic-release/release-notes-generator",
-        [
-            "@semantic-release/changelog",
-            {
-                "changelogFile": "CHANGELOG.md",
-                "changelogTitle": "# Semantic Versioning Changelog"
-            }
-        ],
-        [
-            "@semantic-release/exec",
-            {
-                "prepareCmd": "./prepare-release.sh ${nextRelease.version}"
-            }
-        ],
-        [
-            "@semantic-release/git",
-            {
-                "assets": [
-                    "CHANGELOG.md"
-                ]
-            }
-        ],
-        [
-            "@semantic-release/github",
-            {
-                "assets": [
-                    {
-                        "path": "dist/**"
-                    }
-                ]
-            }
-        ]
+        "@semantic-release/release-notes-generator"
     ]
 }
