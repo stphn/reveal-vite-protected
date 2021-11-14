@@ -16,6 +16,6 @@ jobs:
               skip_cleanup: true
               github_token: $GITHUB_TOKEN # Set in the settings page of your repository, as a secure variable
               on:
-                  all_branches: true
+                  branches: main
               script:
                   - npx semantic-release
