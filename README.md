@@ -2,6 +2,8 @@
 
 # Reveal Vite Staticrypt
 
+![Image](docs/preview.webp)
+
 Building Html Presentations with [Reveal.js](https://revealjs.com/) and [Vite](https://vitejs.dev/).
 
 I will assume you have some familiarity with Node.js and have it at least version 8.3 installed.
