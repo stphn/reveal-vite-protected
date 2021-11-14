@@ -8,6 +8,7 @@
         "url": "https://github.com/stphn/reveal-vite-protected"
     },
     "scripts": {
+        "test": "test --passWithNoTests",
         "dev": "vite",
         "build": "vite build",
         "serve": "vite preview",
