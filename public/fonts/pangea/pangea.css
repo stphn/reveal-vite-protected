@@ -1,0 +1,19 @@
+@font-face {
+    font-family: 'Pangea';
+    src: url('./Pangea-Regular.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Pangea Bold';
+    src: url('./Pangea-Bold.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Pangea Medium';
+    src: url('./Pangea-Medium.woff2') format('woff2');
+}
+
+@font-face {
+    font-family: 'Pangea Light';
+    src: url('./Pangea-Light.woff2') format('woff2');
+}

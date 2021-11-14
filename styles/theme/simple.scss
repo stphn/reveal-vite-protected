@@ -1,0 +1,26 @@
+// Default mixins and settings -----------------
+@import './template/mixins';
+@import './template/settings';
+// ---------------------------------------------
+
+// Include theme-specific fonts need to be in public folder
+@import url(../public/fonts/pangea/pangea.css);
+
+// Override theme settings (see ../template/settings.scss)
+$mainFont: 'Pangea', sans-serif;
+$mainColor: #000;
+$headingFont: 'Pangea', sans-serif;
+$headingColor: #000;
+$headingTextShadow: none;
+$headingTextTransform: none;
+$backgroundColor: #fff;
+$linkColor: #00008b;
+$linkColorHover: lighten($linkColor, 20%);
+$selectionBackgroundColor: rgba(0, 0, 0, 0.99);
+
+// Change text colors against dark slide backgrounds
+@include dark-bg-text-color(#fff);
+
+// Theme template ------------------------------
+@import './template/theme';
+// ---------------------------------------------
